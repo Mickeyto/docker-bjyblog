@@ -1,0 +1,25 @@
+language: php
+
+php:
+  - 7.2
+  - 7.3
+
+before_script:
+  - cp .env.travis .env
+  - mysql -e 'create database blog;'
+  - composer self-update
+  - composer install --no-interaction
+  - php artisan key:generate
+  - php artisan passport:keys
+  - php artisan migrate
+  - php artisan db:seed
+
+script:
+  - vendor/bin/phpunit
+
+services:
+- mysql
+
+notifications:
+  slack: baijunyao:Lp3CWSGT0kfZRfo8XTIHfKyN
+

@@ -1,0 +1,13 @@
+# Global
+.DS_Store
+.vs/
+.idea/
+
+# docker env
+.env
+
+# mysql data
+data/
+
+# SSL Certs
+etc/cert/
