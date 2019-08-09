@@ -1,2 +1,4 @@
 # docker-bjyblog
-基于 Docker 运行 laravel-bjyblog
+Docker laravel-bjyblog
+
+[中文说明](README_CN.md) 

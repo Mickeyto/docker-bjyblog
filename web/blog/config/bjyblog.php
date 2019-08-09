@@ -4,6 +4,7 @@ return [
     // 博客版本
     'version' => 'v5.8.10.0',
     'branch' => env('DEPLOY_BRANCH', 'master'),
+    'copyright_date' => env('COPYRIGHT_DATE', 2014),
     /**
      * 以下配置项会在 @see \App\Providers\AppServiceProvider::boot() 中被覆盖
      * 请勿直接修改本配置项文件

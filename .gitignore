@@ -8,6 +8,3 @@
 
 # mysql data
 data/
-
-# SSL Certs
-etc/cert/
