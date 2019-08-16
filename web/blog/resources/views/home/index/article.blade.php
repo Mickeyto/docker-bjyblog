@@ -7,7 +7,7 @@
 @section('description', $article->description)
 
 @section('css')
-    <link rel="stylesheet" href="{{ asset('statics/editormd/css/editormd.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/editormd.css') }}">
 @endsection
 
 @section('content')
