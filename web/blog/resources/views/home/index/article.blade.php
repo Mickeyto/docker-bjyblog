@@ -6,6 +6,10 @@
 
 @section('description', $article->description)
 
+@section('css')
+    <link rel="stylesheet" href="{{ asset('statics/editormd/css/editormd.min.css') }}">
+@endsection
+
 @section('content')
     <!-- 左侧文章开始 -->
     <div class="col-xs-12 col-md-12 col-lg-8">
@@ -27,7 +31,7 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-md-12 col-lg-12 b-content-word">
-                <div class="js-content">{!! $article->html !!}</div>
+                <div class="js-content markdown-body editormd-preview-container">{!! $article->html !!}</div>
                 <p class="b-h-20"></p>
                 <p class="b-copyright">
                     {!! htmlspecialchars_decode(config('bjyblog.copyright_word')) !!}
