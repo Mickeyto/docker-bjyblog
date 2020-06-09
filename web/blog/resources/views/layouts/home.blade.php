@@ -8,6 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script data-ad-client="ca-pub-2984746737697529" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     @yield('css')
 </head>
