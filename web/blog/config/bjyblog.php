@@ -42,5 +42,6 @@ return [
         'jssocials_config' => '',
         'sharejs_config' => ''
     ],
-    'logo_with_php_tag' => ''
+    'logo_with_php_tag' => '',
+    'umeng_site_code' => env('UMENG_SITE_CODE', ''),
 ];
