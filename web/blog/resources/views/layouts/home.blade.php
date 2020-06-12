@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278986729'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1278986729%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
-    <script data-ad-client="ca-pub-2984746737697529" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{{--    <script data-ad-client="ca-pub-2984746737697529" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     @yield('css')
 </head>
