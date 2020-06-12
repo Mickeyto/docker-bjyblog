@@ -22,11 +22,11 @@
             }
         });
 
-        $('.bootstrap-switch').bootstrapSwitch({
-            onText: "{{ __('Yes') }}",
-            offText: "{{ __('No') }}",
-            onColor: 'success'
-        });
+        {{--$('.bootstrap-switch').bootstrapSwitch({--}}
+        {{--    onText: "{{ __('Yes') }}",--}}
+        {{--    offText: "{{ __('No') }}",--}}
+        {{--    onColor: 'success'--}}
+        {{--});--}}
     })
 </script>
 @yield('js')
