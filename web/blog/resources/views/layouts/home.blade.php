@@ -177,7 +177,7 @@
                     <dd>{{ __('Contact Email') }}：<a href="mailto:{!! config('bjyblog.admin_email') !!}">{!! config('bjyblog.admin_email') !!}</a></dd>
                 @endif
                 @if(!empty(config('bjyblog.icp')) && config('app.locale') === 'zh-CN')
-                    <dd>{{ __('ICP') }}：{{ config('bjyblog.icp') }}</dd>
+                    <dd><a href="https://beian.miit.gov.cn/" target="_blank">{{ __('ICP') }}：{{ config('bjyblog.icp') }}</a></dd>
                 @endif
             </dl>
 
